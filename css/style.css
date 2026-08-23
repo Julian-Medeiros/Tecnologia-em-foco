@@ -19,8 +19,8 @@ footer {
   background: var(--fundo);
   border: 1px solid var(--borda);
   border-radius: 9px;
-  margin: 10px;
-  padding: 10px;
+  margin: 0.625em;
+  padding: 0.625em;
 }
 
 h1,
@@ -61,26 +61,25 @@ caption {
 th,
 td {
   border: 1px solid var(--borda);
-  padding: 0.75rem;
-  text-align: left;
+  padding: 0.75em;
 }
 
 fieldset {
   border: 1px solid var(--borda);
   border-radius: 12px;
-  padding: 1rem;
+  padding: 1em;
 }
 
 .campo {
-  margin-bottom: 1rem;
-  max-width: 35rem;
+  margin-bottom: 1em;
+  max-width: 35em;
 }
 
 input,
 select,
 textarea {
   width: 100%;
-  padding: 0.7rem;
+  padding: 0.7em;
   border: 1px solid var(--borda);
   border-radius: 10px;
   background: var(--formulario);
@@ -98,12 +97,12 @@ button {
   background: var(--cor-titulos);
   color:var(--formulario);
   font-weight: 700;
-  cursor: pointer;
-  transition: transform 0.2s ease;
 }
 
 button:hover {
+  transition: transform 0.2s ease;
   transform: translateY(-4px);
+  cursor: pointer;
 }
 
 footer p {
